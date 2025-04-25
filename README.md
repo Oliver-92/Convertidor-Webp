@@ -42,9 +42,9 @@ Para ejecutar este proyecto, solo necesitas un navegador moderno que soporte Jav
 
 ```plaintext
 convertidor-webp/ 
-│   ├── index.html 
-│   ├── styles.css 
-│   └── script.js
+    ├── index.html 
+    ├── styles.css 
+    └── script.js
 ```
 
 ## Tecnologías Utilizadas
