@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convertidor a WebP</title>
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Convertidor de Imágenes a WebP</h1>
+    <form id="image-form">
+      <input type="file" id="image-input" accept="image/*" multiple />
+      <p id="file-count">Máximo 10 imágenes</p>
+      <div id="preview"></div>
+      <button type="submit">Convertir a WebP</button>
+    </form>
+    <div id="converted-images"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
