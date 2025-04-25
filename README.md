@@ -40,12 +40,12 @@ Para ejecutar este proyecto, solo necesitas un navegador moderno que soporte Jav
 
 ## Estructura del Proyecto
 
-    ````plain
+    ```plaintext
     convertidor-webp/ 
     │   ├── index.html 
     │   ├── styles.css 
     │   └── script.js
-    ````
+    ```
 
 ## Tecnologías Utilizadas
 
