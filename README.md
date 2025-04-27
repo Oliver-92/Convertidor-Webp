@@ -1,6 +1,6 @@
 # Convertidor de Imágenes a WebP
 
-Este es un convertidor de imágenes a formato WebP que permite a los usuarios seleccionar varias imágenes, ver una vista previa de las imágenes seleccionadas, convertirlas a WebP y descargarlas en un archivo ZIP. Todo esto sin necesidad de un backend, utilizando solo tecnologías frontend como HTML, CSS y JavaScript.
+Convertidor de imágenes a formato WebP que permite a los usuarios seleccionar varias imágenes, ver una vista previa selección, convertirlas a WebP y descargarlas en un archivo ZIP. Todo esto sin necesidad de un backend, utilizando solo tecnologías como HTML, CSS y JavaScript.
 
 ## Funcionalidades
 

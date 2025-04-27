@@ -179,6 +179,16 @@ form.addEventListener("submit", (e) => {
   let zipFilename = "imagenes_convertidas.zip"; // Nombre del archivo ZIP
   let processedFiles = 0;
 
+  // Crear el elemento para el mensaje de éxito si no existe
+  let successMessage = document.getElementById("success-message");
+  if (!successMessage) {
+    successMessage = document.createElement("div");
+    successMessage.id = "success-message";
+    successMessage.className = "success-message";
+    successMessage.textContent = "¡Descarga exitosa!";
+    document.body.appendChild(successMessage);
+  }
+
   selectedFiles.forEach((file, index) => {
     // Llamamos a la función de conversión
     convertToWebP(file, (webpDataUrl) => {
@@ -205,6 +215,14 @@ form.addEventListener("submit", (e) => {
           link.href = URL.createObjectURL(content);
           link.download = zipFilename; // Nombre del archivo ZIP
           link.click(); // Simula un clic para descargar el archivo
+
+          // Mostrar el mensaje de éxito
+          successMessage.style.display = "flex";
+
+          // Ocultar el mensaje después de 3 segundos
+          setTimeout(() => {
+            successMessage.style.display = "none";
+          }, 3000);
 
           // Resetear la selección después de la descarga
           resetSelection();
