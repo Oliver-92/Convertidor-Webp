@@ -87,7 +87,7 @@ imageInput.addEventListener("change", () => {
 // Función para actualizar el contador de archivos
 function updateFileCountDisplay() {
   if (selectedFiles.length === 0) {
-    fileCountDisplay.textContent = "Sin archivos seleccionados";
+    fileCountDisplay.textContent = "Máximo 10 imágenes";
   } else {
     fileCountDisplay.textContent = `${selectedFiles.length} archivo(s) seleccionado(s)`;
   }
